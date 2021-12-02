@@ -70,7 +70,7 @@ table {
 /* Background Image */
 
 body {
-    background: linear-gradient(  rgba(255, 122, 122, 0.700), rgba(255, 122, 122, 0.700) ), url(../assets/bg-intro-desktop.png);
+    background:  url(../assets/bg-intro-desktop.png), no-repeat, linear-gradient(  #FF807A, #FF807A );
     background-size: cover;
     font-family: 'Raleway', sans-serif;
 }
