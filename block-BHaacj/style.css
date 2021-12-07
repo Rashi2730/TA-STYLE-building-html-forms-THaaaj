@@ -1,0 +1,456 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+/* General */
+
+
+
+*, 
+* ::before, 
+* ::after {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    line-height: 1.4;
+}
+main {
+    background-color: #E6E6E6;
+}
+
+
+/* padding */
+
+
+
+.padding {
+    padding: 40px;
+}
+.paddn{
+    padding-top: 40px;
+}
+
+
+
+/* Flex */
+
+.flex75{
+    display: flex;
+    flex:  0 1 75%;
+}
+.flex20 {
+    display: flex;
+    flex: 0 1 20%
+}
+.flexmap {
+    display: flex;
+    flex: 0 1 50%;
+    flex-direction: column;
+}
+.flexform {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Buttons */
+
+
+.btn {
+    background-color: #69c6ba;
+    text-transform: uppercase;
+    width: 100%;
+    color: white;
+    padding: 10px 100px;
+    font-size: 8px;
+    font-weight: 600;
+}
+.btn1{
+    border: none;
+    width: 20%;
+    font-size: 10px;
+    padding: 10px;
+    margin: 20px 0;
+}
+.btn2 {
+    background-color: white;
+    color: #69c6ba;
+    width: 40%;
+    font-weight: 600;
+}
+.btn3 {
+    color: #C66995;
+    width: 40%;
+}
+.curvebtn {
+    border: none;
+    background-color: #69c6ba;
+    font-size: 12px;
+    color: #fff;
+    padding: 10px 20px;
+}
+.buttn {
+    border: none;
+    background-color: #69c6ba;
+    width: 95%;
+    padding: 6px;
+    margin: 10px;
+    color: white;
+}
+
+
+
+
+
+/* Headings n paras */
+ 
+h1 {
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color: black;
+    padding: 20px 0;
+}
+h3 {
+   font-size: 20px;
+   padding: 10px 0;
+}
+.heading {
+    font-size: 12px;
+    font-weight: 900;
+    color: black;
+    padding: 10px 20px;
+}
+
+
+
+/* Header */
+
+
+
+header {
+    padding: 20px 60px;
+}
+.logo span{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0 10px;
+    color: black;
+}
+.menu li {
+    font-size: 12px;
+    font-weight: 900;
+    color: black;
+    padding: 0 20px;
+    text-transform: capitalize;
+}
+.menu li:hover, .menu li.active{
+    color: #69c6ba;
+}
+
+
+
+
+/* Arrows */
+
+.arrows {
+    font-size: 15px;
+    color:whitesmoke;
+    background: linear-gradient( rgb( 0, 0, 0, 0.500), rgb( 0, 0, 0, 0.500));
+    padding: 6px;
+}
+.larrow1 {
+    position: absolute;
+    bottom: 40%;
+    left: 38%;
+}
+.rarrow1 {
+    position: absolute;
+    bottom: 40%;
+    left: 42%;
+}
+.larrow2 {
+    position: absolute;
+    right: 42%;
+}
+.rarrow2 {
+    position: absolute;
+    right:38%;
+}
+
+
+
+
+/* Section 1 */
+
+.sec1 {
+    background: linear-gradient( rgb( 0, 0, 0, 0.500), rgb( 0, 0, 0, 0.500)) ,url(../block-BHaacj/assets/banner.jpg);
+    background-size: cover;
+}
+.col1 {
+    color: white;
+    text-align: center;
+}
+.col1 i{
+    background-color: #69c6ba;
+    border-radius: 50%;
+    padding: 8px;
+}
+.col1 p{
+    padding: 10px 0;
+    font-weight: 300;
+}
+.col2 {
+    background-color: white;
+    width: 600px;
+    padding: 20px;
+    margin: 40px 40px 40px 110px;
+}
+.destination{
+    width: 100%;
+}
+input{
+    border: none;
+    width: 60px;
+    margin-left: 15px;
+}
+input::placeholder{
+    font-size: 10px;
+    padding: 0 15px;
+    font-weight: 800;
+    color: rgb(182, 179, 179);
+}
+
+
+/* Section 2 */
+
+
+.sec2 {
+    text-align: center;
+    background-color: #EFEFEF;
+}
+h2 span {
+    font-weight: 600;
+}
+.sec2 p {
+    color: rgb(15, 14, 14);
+    font-weight: 300;
+
+}
+
+
+
+/* Section 3, Section 4, Section 5 */
+
+
+.sec3, .sec4, .sec5 {
+    background-color: #fff;
+    position: relative;
+}
+.sec3 img, .sec4 img, .sec5 img{
+    width: 50%;
+}
+.sec3 .content, .sec5 .content {
+    width: 450px;
+    background-color: #69c6ba;
+    padding: 10px 40px;
+    color: rgb(240, 236, 236);
+    position: absolute;
+    left: 45%;
+}
+.sec4 .content2 {
+    background-color: #C66995;
+    width: 450px;
+    padding: 10px 40px;
+    color: rgb(240, 236, 236);
+    position: absolute;
+    right: 45%;
+}
+
+
+/* Map Section */
+
+.map {
+    background-color: #69c6ba;
+    text-align: center;
+}
+.flexmap {
+    padding: 10px;
+}
+.flexmap span {
+    color: white;
+    text-transform: uppercase;
+    padding: 0 10px;
+}
+.map span.active {
+    background-color: #C66995;
+}
+.flexmap:hover {
+    background-color: #C66995;
+}
+
+/* Section 6*/
+
+.sec6 {
+    background-color: #fff;
+}
+.sec6 article {
+    margin: 20px 60px;
+    position: relative;
+}
+.sec6 img{
+    width: 30%;
+}
+.col {
+    padding: 10px;
+    height: 150px;
+    width: 50%;
+    background-color: white;
+    box-shadow: 2px 0 0 rgb( 0, 0, 0, 0.200);
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    position: absolute;
+    right: 21%;
+}
+.col h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.col span {
+    color: #C66995;
+    font-weight: 800;
+}
+.curvebar {
+    height: 150px;
+    width: 50%;
+    background-color: #69c6ba;
+    text-align: right;
+    color: #fff;
+    font-weight: 700;
+}
+.curvebar p{
+    font-size: 20px;
+    padding-top: 60px;
+    padding-right: 60px
+}
+.marg {
+    margin-left: 320px;
+}
+
+
+
+
+/* Section 7*/
+
+
+
+.sec7{
+    position: relative;
+}
+.flexform {
+    background-color: #fff;
+    width: 40%;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+.flexform input, textarea {
+    background-color: #F5F5F5;
+    border: none;
+    padding: 10px 12px;
+    margin: 10px;
+}
+.colm1 input {
+    width: 80%;
+}
+.subj {
+    width: 95%;
+}
+textarea::placeholder, .flexform input::placeholder{
+    color: rgb(139, 134, 134);
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    padding: 0 10px;
+}
+
+
+
+/* Footer */
+
+
+
+
+
+footer {
+    background-color: #69c6ba;
+    padding: 30px;
+    text-align: center;
+}
+small {
+    color: whitesmoke;
+    font-size: 8px;
+    font-weight: 400;
+}
